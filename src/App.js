@@ -31,7 +31,7 @@ function App() {
       <NavBar />
       {message}
       <Routes>
-        <Route exact path="/" element={<Carousel />} />
+        <Route exact path="/" element={<SlideShow data={data} />} />
         <Route path="/Gallery" element={<Gallery />} />
       </Routes>
     </div>
