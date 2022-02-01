@@ -33,7 +33,7 @@ function App() {
       {message}
       <Routes>
         <Route exact path="/" element={<SlideShow data={data} />} />
-        <Route path="/Gallery" element={<Gallery />} />
+        <Route path="/Gallery" element={<Gallery data={data} />} />
       </Routes>
     </div>
   );
