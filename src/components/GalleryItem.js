@@ -16,7 +16,7 @@ const GalleryItem = (props) => {
             <Card.Text>{card.explanation}</Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">{card.date}}</small>
+            <small className="text-muted">{card.date}</small>
           </Card.Footer>
         </Card>
       </CardGroup>
